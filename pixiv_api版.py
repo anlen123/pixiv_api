@@ -11,7 +11,7 @@ listId = []
 def app_url(num, leixing, datatimee):
     url = f"https://api.imjad.cn/pixiv/v1/?type=rank&content=illust&mode={leixing}&per_page={num}&page=1&date={datatimee}"
 
-    print(url)
+    #print(url)
     r = requests.get(url).json()['response'][0]['works']
     for x in r:
         listId.append(x['work']['id'])
