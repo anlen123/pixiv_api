@@ -75,7 +75,7 @@ else:
         with open(str(_id)+"/"+str(_id) + "画师-下载直链.txt", 'a+')as f:
             f.write(x + '\n')
 
-    duoxiancheng(down, listt, 0) #开启就是下载
+    #duoxiancheng(down, listt, 0) #开启就是下载
 
     print("完成")
     print("完成")
